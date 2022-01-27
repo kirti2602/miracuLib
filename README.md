@@ -1,1 +1,3 @@
 # miracuLib
+## A component library created using HTML, CSS , JS
+## In progresss...
