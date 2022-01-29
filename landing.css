@@ -80,6 +80,7 @@ body{
     border: none;
     cursor: pointer;
     gap: 0.5rem;
+    text-decoration: none;
 }
 
 .primary-btn{
@@ -100,6 +101,9 @@ background-color: var(--primary-btn-hover-bg);
 .secondary-btn:hover{
     color: var(--primary-btn-hover-bg);
     border-color: var(--primary-btn-hover-bg);
+}
+
+.links{
 }
 
 
