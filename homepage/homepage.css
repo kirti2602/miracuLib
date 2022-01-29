@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;900&display=swap');
+
+:root {
+    --landing-bg: white;
+    --title-color: rgb(59, 59, 59);
+    --primary-btn-bg: #5e17eb;
+    --primary-btn-hover-bg: #37049e;
+
+    --body-font-family: 'Raleway', sans-serif;
+}
+
+* {
+    font-family: var(--body-font-family);
+}
+
+body {
+    background-color: var(--landing-bg);
+}
+
+.homepage-container{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-areas: "navbar navbar"
+    "sidebar main"
+    "sidebar main"
+    "sidebar main"
+    "footer footer"
+    ;
+    height: 100vh;
+}
+
+.nav-bar{
+    grid-area: navbar;
+    background-color: #37049e;
+}
+
+.side-bar{
+    grid-area: sidebar;
+    background-color: aquamarine;
+    overflow-y: scroll;
+}
+
+.main-content{
+    grid-area: main;
+    background-color: bisque;
+}
+
+.footer{
+    grid-area: footer;
+    background-color: cadetblue;
+}
