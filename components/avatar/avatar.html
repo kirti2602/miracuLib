@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avatar</title>
+    <link rel="stylesheet" href="avatar.css">
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/1465705b72.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="homepage-container">
+
+        <nav class="nav-bar padding2rem flex cursor-pointer">
+
+            <a href="../../index.html"><img class="logo" src="../../images/logo-sm.png" alt="logo"></a>
+
+            <a href="../../homepage/homepage.html">Home</a>
+
+            <!-- social media links -->
+            <div class="social-links flex">
+                <i class="fab fa-github"></i>
+                <i class="fab fa-linkedin"></i>
+                <i class="fab fa-twitter"></i>
+            </div>
+        </nav>
+
+        <aside class="side-bar">
+            <ul class="sidebar-list flex cursor-pointer">
+                <a href="">
+                    <h1><i class="fas fa-rocket"></i> Get Started</h1>
+                </a>
+                <li><a href="">Installation</a></li>
+
+                <a href="">
+                    <h1><i class="fas fa-puzzle-piece"></i> Components</h1>
+                </a>
+                <a href="">
+                    <li class="selected">Avatar</li>
+                </a>
+                <a href="">
+                    <li>Alert</li>
+                </a>
+                <a href="">
+                    <li>Badge</li>
+                </a>
+                <a href="">
+                    <li>Button</li>
+                </a>
+                <a href="">
+                    <li>Card</li>
+                </a>
+                <a href="">
+                    <li>Image </li>
+                </a>
+                <a href="">
+                    <li>Input</li>
+                </a>
+                <a href="">
+                    <li>Text Utilities</li>
+                </a>
+                <a href="">
+                    <li>Lists</li>
+                </a>
+                <a href="">
+                    <li>Naviagtion</li>
+                </a>
+                <a href="">
+                    <li>Modal</li>
+                </a>
+                <a href="">
+                    <li>Rating </li>
+                </a>
+                <a href="">
+                    <li>Snackbar</li>
+                </a>
+                <a href="">
+                    <li>Grid</li>
+                </a>
+                <a href="">
+                    <li>Naviagtion</li>
+                </a>
+                <a href="">
+                    <li>Slider</li>
+                </a>
+            </ul>
+        </aside>
+
+        <main class="main-content padding2rem">
+
+            <!-- avatarts out of SVGs -->
+            <h1 class="component-title">Avatar</h1>
+            <p class="component-description">Avatar is an object that represents the user's identity on screen.</p>
+
+            <h3 class="component-eg">Examples:-</h3>
+            <p class="component-eg-desc">Avatar is available in 4 different sizes. You can use image in Avatar. You need
+                to include class <strong class = "imp-data">avatar</strong> and for size add class according
+                to size <strong class = "imp-data">avatar-lg-size, avatar-md-size, avatar-sm-size, avatar-xs-size</strong> (e.g.
+                <strong class = "imp-data">class="avatar avatar-lg-size"</strong>)
+            </p>
+
+            <div class="avatar-live flex">
+                <img class="avatar avatar-lg-size" src="../../images/naruto.svg" alt="">
+                <img class="avatar avatar-md-size" src="../../images/hinata.svg" alt="">
+                <img class="avatar avatar-sm-size" src="../../images/sasuke.svg" alt="">
+                <img class="avatar avatar-xs-size" src="../../images/kakashi.svg" alt="">
+            </div>
+
+            <!-- <div class="demo-code">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C0.1%29&t=base16-dark&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cimg%2520class%253D%2522avatar%2520avatar-lg-size%2522%2520src%253D%2522your-image-path%2522%2520alt%253D%2522large%2522%253E%250A%2520%253Cimg%2520class%253D%2522avatar%2520avatar-md-size%2522%2520src%253D%2522your-image-path%2522%2520alt%253D%2522medium%2522%253E%250A%2520%253Cimg%2520class%253D%2522avatar%2520avatar-sm-size%2522%2520src%253D%2522your-image-path%2522%2520alt%253D%2522small%2522%253E%250A%2520%253Cimg%2520class%253D%2522avatar%2520avatar-xs-size%2522%2520src%253D%2522your-image-path%2522%2520alt%253D%2522x-small%2522%253E%250A%2520%2520%2520"
+                    style="width: 841px; height: 263px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div> -->
+
+            <hr>
+
+            <!-- Avatar out of alphabets -->
+
+            <h3 class="component-eg">Examples of alphabetical avatars</h3>
+            <p class="component-eg-desc">An avatar can be created using initial letters of user. You need to include
+                class <strong class = "imp-data">avatar-alpha</strong> along with <strong class = "imp-data">avatar</strong> and <strong class = "imp-data">size</strong> class.
+                (e.g. <strong class = "imp-data">class="avatar avatar-lg-size avatar-alpha"</strong>)
+            </p>
+
+            <div class="avatar-live flex">
+                <span class="avatar avatar-lg-size avatar-alpha flex">KS</span>
+                <span class="avatar avatar-md-size avatar-alpha flex">KS</span>
+                <span class="avatar avatar-sm-size avatar-alpha flex">KS</span>
+                <span class="avatar avatar-xs-size avatar-alpha flex">K</span>
+            </div>
+
+
+
+        </main>
+
+
+        <footer class="footer flex">
+            <h3 class="next-compo">next component <i class="fas fa-chevron-circle-right"></i></h3>
+        </footer>
+    </section>
+</body>
+
+</html>
