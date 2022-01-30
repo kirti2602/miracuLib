@@ -5,8 +5,9 @@
     --primary-violet: #5e17eb;
     --hover-state-dark-violet: #37049e;
     --hover-state-light-violet: #c6adf7;
-    --nav-bar-bg: blueviolet;
+    --hover-shadow-grey: rgb(196, 192, 192);
     --secondary-white: white;
+    --off-black-typography: rgb(37, 37, 37);
 
     /* font-family */
     --body-font-family: 'Raleway', sans-serif; 
@@ -32,6 +33,18 @@ a{
     text-decoration: none;
 }
 
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.selected{
+    background-color: var(--hover-state-light-violet);
+    border-radius: 2rem;
+    border: 2px solid var(--hover-state-dark-violet)
+}
+
+/* ----------------------- */
+
 body {
     background-color: var(--landing-bg);
     margin: 0;
@@ -47,9 +60,7 @@ body {
     "sidebar main main main main"
     "footer footer footer footer footer"
     ;
-    height: 150vh;
-
-    
+    height: 150vh;  
 }
 
 .nav-bar{
@@ -64,7 +75,7 @@ body {
 }
 
 .logo{
-    background-color: white;
+    background-color: var(--secondary-white);
     height: 100px;
     width: 100px;
     border-radius: 50%;
@@ -76,9 +87,12 @@ body {
     gap: 2rem;
 }
 
+.social-links i:hover{
+    color: var(--hover-shadow-grey);
+}
+
 .side-bar{
     grid-area: sidebar;
-    color: var(--primary-violet);
     overflow-y: scroll;
     font-weight: 600;
     padding: 1rem;
@@ -95,21 +109,61 @@ body {
 
 .side-bar li{
     padding: 0.8rem 2.5rem;
-    width: 6.5rem;
+    min-width: 5rem;
     cursor: pointer;
-    border: 2px solid white;
+}
+.side-bar a{
+    color: var(--primary-violet);
+}
+
+.side-bar h1{
+    margin: 0 0 0 0rem;
+    padding-left: 0;
+    color: var(--off-black-typography);
+    font-size: larger;
 }
 
 .sidebar-list > li:hover{
     background-color: var(--hover-state-light-violet);
     border-radius: 2rem;
-    border: 0.5px solid var(--primary-violet);
     color: var(--hover-state-dark-violet);
 }
-
-
 
 .main-content{
     grid-area: main;
 }
+
+/*for next component*/
+.next-compo{
+    margin-left: auto;
+    align-self: flex-end; 
+    color: var(--off-black-typography);
+    padding: 0rem 1rem;
+}
+
+.footer{
+    grid-area: footer;
+}
+@media only screen and (max-width: 800px){
+    html{
+        font-size: 70%;
+    }
+}
+
+
+@media only screen and (max-width: 700px){
+    .homepage-container{
+        grid-template-columns: 1fr;
+        grid-template-areas: "navbar"
+        "main"
+        "footer"
+        ;
+        height: 100vh;
+    }
+    .side-bar{
+        display: none;
+    }
+}
+
+
 
