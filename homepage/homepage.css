@@ -9,6 +9,20 @@
     --secondary-white: white;
     --off-black-typography: rgb(37, 37, 37);
 
+
+    --success-green: #11AF41;
+    --success-green-light: #9ff5b8;
+
+    --error-red:  #F2180A;
+    --error-red-light:  #fdbbb7;
+
+    --warning-yellow: #FF7C03 ;
+    --warning-yellow-light : #f7cea9;
+
+    --info-blue: #0D5BBC;
+    --info-blue-light: #71affa;
+
+
     /* font-family */
     --body-font-family: 'Raleway', sans-serif; 
 }
