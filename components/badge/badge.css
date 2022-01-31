@@ -1,0 +1,80 @@
+@import '../../homepage/homepage.css';
+@import '../document.css';
+@import '../avatar/avatar.css';
+
+:root{
+    --active-state: rgb(5, 177, 5);
+    --offline-state: grey;
+    --dnd-state: rgb(255, 22, 22);
+    --busy-state: rgb(37, 37, 248);
+}
+
+.badge-container{
+    position: relative;
+}
+
+.badge{
+    border: 2px solid white;
+    border-radius: 50%;
+    position: absolute;
+    justify-content: center;
+    font-size: x-small;
+    font-weight: 500;
+    bottom: 0;
+    color: var(--secondary-white);
+}
+
+/*badge sizes*/
+.badge-lg-size{
+    height: 1.2rem;
+    width: 1.2rem;
+    bottom: 4px;
+    right: 20px;
+}
+.badge-md-size{
+    height: 0.9rem;
+    width: 0.9rem;
+    right: 12px;
+    
+}
+.badge-sm-size{
+    height: 0.6rem;
+    width: 0.6rem;
+    right: 5px;
+}
+.badge-xs-size{
+    height: 0.3rem;
+    width: 0.3rem;
+    bottom: 2px;
+    right: 2px;
+}
+
+/*badge colors*/
+.active{
+    background-color: var(--active-state);
+}
+.offline{
+    background-color: var(--offline-state);
+}
+.dnd{
+    background-color: var(--dnd-state);
+}
+.busy{
+    background-color: var(--busy-state);
+}
+
+/*icon badge custom css*/
+.badge-home, .badge-envelop{
+    top: 19px;
+    right: 37px;
+}
+
+.badge-cart{
+    top: 19px;
+    right: 30px;
+}
+
+.badge-user{
+    top: 14px;
+    right: 45px;
+}

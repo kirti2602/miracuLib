@@ -4,7 +4,7 @@
 
 .avatar{
     border-radius: 50%;
-    border: 3px solid var(--hover-state-dark-violet);
+    border: 3px solid var(--secondary-white);
     background-color: var(--off-black-typography);
 }
 
@@ -35,7 +35,7 @@
 
 }
 
-.avatar-live{
+.comp-live{
     margin-top: 4rem;
     background-color: var(--hover-state-light-violet);
     padding: 2rem 0;
