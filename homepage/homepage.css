@@ -38,9 +38,10 @@ a{
 }
 
 .selected{
-    background-color: var(--hover-state-light-violet);
+    background-color: var(--primary-violet);
     border-radius: 2rem;
-    border: 2px solid var(--hover-state-dark-violet);
+    border: 2px solid var(--secondary-white);
+    color: var(--secondary-white);
 }
 
 /* ----------------------- */
@@ -58,7 +59,7 @@ body {
     "sidebar main main main main"
     "sidebar main main main main"
     "sidebar main main main main"
-    "footer footer footer footer footer"
+    "sidebar footer footer footer footer"
     ;
     height: 150vh;  
 }
@@ -135,14 +136,13 @@ body {
 
 /*for next component*/
 .next-compo{
-    margin-left: auto;
-    align-self: flex-end; 
     color: var(--off-black-typography);
     padding: 0rem 1rem;
 }
 
 .footer{
     grid-area: footer;
+    justify-content: space-between;
 }
 @media only screen and (max-width: 800px){
     html{
