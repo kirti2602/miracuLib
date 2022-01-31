@@ -1,5 +1,6 @@
 @import '../document.css';
 @import '../avatar/avatar.css';
+@import '../../homepage/homepage.css';
 
 :root{
     --active-state: rgb(5, 177, 5);
