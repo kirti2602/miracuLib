@@ -40,6 +40,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+    flex-wrap: wrap;
 }
 
 .landing-container {
@@ -47,11 +48,12 @@ body {
     flex-direction: column;
     gap: 1.5rem;
     animation: transitionOnLoad 2s;
+    overflow-x: hidden;
 }
 
 .logo {
-    width: 500px;
-    height: 100px;
+    width: 31.25rem;
+    height: 6.25rem;
     object-fit: cover;
     object-position: 20% 55%;
 }
@@ -98,4 +100,21 @@ body {
 .secondary-btn:hover {
     color: var(--primary-btn-hover-bg);
     border-color: var(--primary-btn-hover-bg);
+}
+
+/*media querries*/
+@media only screen and (max-width: 740px){
+    html{
+        font-size: 80%;
+    }
+
+} 
+
+@media only screen and (max-width: 400px){
+    html{
+        font-size: 50%;
+    }
+    .flex{
+        flex-direction: column;
+    }
 }
