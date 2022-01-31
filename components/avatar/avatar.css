@@ -1,25 +1,6 @@
 @import '../../homepage/homepage.css';
+@import '../document.css';
 
-:root{
-
-}
-
-
-.component-title, .component-eg{
-    margin-bottom: 0;
-    color: var(--off-black-typography);
-}
-
-.component-title{
-    font-size: 3rem;
-    /* margin-top: 2rem; */
-}
-
-.component-description, .component-eg-desc{
-    opacity: 0.7;
-    font-weight: 500;
-    margin-bottom: 3rem;
-}
 
 .avatar{
     border-radius: 50%;
@@ -68,6 +49,3 @@
     font-weight: 500;
 }
 
-.imp-data{
-    color: var(--primary-violet);
-}

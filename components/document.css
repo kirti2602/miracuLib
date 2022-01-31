@@ -1,0 +1,27 @@
+@import '../../homepage/homepage.css';
+
+/*documentation css*/
+/*------------------*/
+.component-title, .component-eg{
+    margin-bottom: 0;
+    color: var(--off-black-typography);
+}
+
+.component-title{
+    font-size: 3rem;
+    /* margin-top: 2rem; */
+}
+
+.component-description, .component-eg-desc{
+    opacity: 0.7;
+    font-weight: 500;
+    margin-bottom: 3rem;
+}
+
+.horizontal-line-break{
+    margin: 4rem;
+}
+
+.imp-data{
+    color: var(--hover-state-dark-violet);
+}
