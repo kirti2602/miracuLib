@@ -1,0 +1,98 @@
+@import '../document.css';
+@import '../../homepage/homepage.css';
+@import '../avatar/avatar.css';
+
+.btn{
+    padding: 0.7rem 2rem;
+    border-radius: 2rem;
+    border: 2px solid transparent;
+    color: var(--secondary-white);
+    background-color: var(--secondary-white);
+}
+
+/* brightens the button on hover */
+.btn:hover{
+    filter: brightness(130%);
+    cursor: pointer;
+}
+
+
+/*solid buttons*/
+.success-btn{
+    background-color: var(--success-green);
+}
+
+.error-btn{
+    background-color: var(--error-red);
+}
+
+.info-btn{
+    background-color: var(--info-blue);
+}
+
+.warning-btn{
+    background-color: var(--warning-yellow);
+}
+
+
+/*outline buttons*/
+
+.outline-hover:hover{
+    color: var(--secondary-white);
+}
+
+.success-btn-outline{
+    border: 2px solid var(--success-green);
+    color: var(--success-green);
+} 
+
+.success-btn-outline:hover{
+    background-color: var(--success-green);
+}
+
+.error-btn-outline{
+    border: 2px solid var(--error-red);
+    color: var(--error-red);
+}
+
+.error-btn-outline:hover{
+    background-color: var(--error-red);
+}
+
+.info-btn-outline{
+    border: 2px solid var(--info-blue);
+    color: var(--info-blue);
+}
+
+.info-btn-outline:hover{
+    background-color:  var(--info-blue);
+}
+
+.warning-btn-outline{
+    border: 2px solid var(--warning-yellow);
+    color: var(--warning-yellow);
+}
+
+.warning-btn-outline:hover{
+    background-color: var(--warning-yellow);
+}
+
+/*link buttons*/
+
+.link-btn{
+    color: var(--secondary-white);
+}
+
+.link-btn:hover{
+    text-decoration: underline;
+    filter: brightness(100%);
+}
+
+/*icon-btn*/
+.icon-btn-flex{
+    gap: 1rem;
+}
+
+
+
+
