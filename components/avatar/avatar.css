@@ -34,14 +34,6 @@
 
 }
 
-.comp-live{
-    margin-top: 4rem;
-    background-color: var(--hover-state-light-violet);
-    padding: 2rem 0;
-    justify-content: space-evenly;
-    border-radius: 1rem;
-}
-
 .avatar-alpha{
     justify-content: center;
     color: var(--secondary-white);
