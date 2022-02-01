@@ -1,0 +1,73 @@
+@import '../../homepage/homepage.css';
+@import '../document.css';
+
+/*need to remove after merge*/
+@import '../avatar/avatar.css';
+
+
+.comp-live{
+flex-direction: column;
+gap: 1rem;
+}
+
+.alert-container{
+    padding: 1rem 2rem;
+    gap: 1.3rem;
+    min-width: 30rem;
+    border-radius: 0.5rem;
+    border: 2px solid transparent;
+    color: var(--secondary-white);
+    font-weight: 500;
+}
+
+.alert-container :last-child{
+    margin-left: auto;
+}
+
+/*solid alerts*/
+.success-alert{
+    background-color: var(--success-green);
+}
+
+.error-alert{
+    background-color: var(--error-red);
+}
+.info-alert{
+    background-color: var(--info-blue);
+}
+.warning-alert{
+    background-color: var(--warning-yellow);
+}
+
+.fa-times:hover{
+color: var(--off-black-typography);
+
+}
+
+/*outline light bg alerts*/
+.success-alert-outline{
+    background-color: var(--success-green-light);
+    border-color: var(--success-green);
+    color: var(--success-green);
+}
+.error-alert-outline{
+    background-color: var(--error-red-light);
+    border-color: var(--error-red);
+    color: var(--error-red);
+}
+.info-alert-outline{
+    background-color: var(--info-blue-light);
+    border-color: var(--info-blue);
+    color: var(--info-blue);
+}
+.warning-alert-outline{
+    background-color: var(--warning-yellow-light);
+    border-color: var(--warning-yellow);
+    color: var(--warning-yellow);
+}
+
+/*white bg alerts*/
+
+.white-bg{
+    background-color: var(--secondary-white);
+}

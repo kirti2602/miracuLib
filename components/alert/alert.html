@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alert</title>
+    <link rel="stylesheet" href="alert.css">
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/1465705b72.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="homepage-container">
+
+        <nav class="nav-bar padding2rem flex cursor-pointer">
+
+            <a href="../../index.html"><img class="logo" src="../../images/logo-sm.png" alt="logo"></a>
+
+            <a href="../../homepage/homepage.html">Home</a>
+
+            <!-- social media links -->
+            <div class="social-links flex cursor-pointer">
+                <a target="_blank" href="https://github.com/kirti2602"><i class="fab fa-github fa-2x"></i></a>
+                <a target="_blank" href="https://www.linkedin.com/in/kirti--sharma/"><i
+                        class="fab fa-linkedin fa-2x"></i></a>
+                <a target="_blank" href="https://twitter.com/_keeerti"><i class="fab fa-twitter fa-2x"></i></a>
+            </div>
+        </nav>
+
+        <aside class="side-bar">
+            <ul class="sidebar-list flex cursor-pointer">
+
+                <h1><i class="fas fa-rocket"></i> Get Started</h1>
+
+                <a href="../../homepage/homepage.html">
+                    <li>Installation</li>
+                </a>
+
+                <h1><i class="fas fa-puzzle-piece"></i> Components</h1>
+
+                <a href="avatar.html">
+                    <li>Avatar</li>
+                </a>
+                <a href="../alert/alert.html">
+                    <li class="selected">Alert</li>
+                </a>
+                <a href="../badge/badge.html">
+                    <li>Badge</li>
+                </a>
+                <a href="../button/button.html">
+                    <li>Button</li>
+                </a>
+                <a href="../card/card.html">
+                    <li>Card</li>
+                </a>
+                <a href="../image/image.html">
+                    <li>Image </li>
+                </a>
+                <a href="../input/input.html">
+                    <li>Input</li>
+                </a>
+                <a href="../text-utilities/text-utilities.html">
+                    <li>Text Utilities</li>
+                </a>
+                <a href="../lists/lists.html">
+                    <li>Lists</li>
+                </a>
+                <a href="../modal/modal.html">
+                    <li>Modal</li>
+                </a>
+                <a href="../rating/rating.html">
+                    <li>Rating </li>
+                </a>
+                <a href="../snackbar/snackbar.html">
+                    <li>Snackbar</li>
+                </a>
+                <a href="../grid/grid.html">
+                    <li>Grid</li>
+                </a>
+                <a href="../navigation/navigation.html">
+                    <li>Naviagtion</li>
+                </a>
+                <a href="../slider/slider.html">
+                    <li>Slider</li>
+                </a>
+            </ul>
+        </aside>
+
+        <main class="main-content padding2rem">
+
+            <h1 class="component-title">Alerts</h1>
+            <p class="component-description">An alert displays a short, important message in a way that attracts the
+                user's attention without interrupting the user's task.</p>
+
+            <h3 class="component-eg">Examples of solid Alerts</h3>
+            <p class="component-eg-desc">Alerts are available in 4 solid variants - <strong class="imp-data">Success,
+                    Error, Info and Warning.</strong>
+                Include class(s) on the basis of whichever Alert(s) you want to add.
+            </p>
+
+            <!-- Solid alerts -->
+            <div class="comp-live flex">
+                <div class="alert-container success-alert flex">
+                    <i class="fas fa-check-circle"></i>
+                    Success Alert!
+                    <i class="fas fa-times"></i>
+                </div>
+
+                <div class="alert-container error-alert flex">
+                    <i class="fas fa-exclamation-triangle"></i>
+                    Error Alert!
+                    <i class="fas fa-times"></i>
+                </div>
+
+                <div class="alert-container info-alert flex">
+                    <i class="fas fa-info-circle"></i>
+                    Info Alert!
+                    <i class="fas fa-times"></i>
+                </div>
+
+                <div class="alert-container warning-alert flex">
+                    <i class="fas fa-skull-crossbones"></i>
+                    Warning Alert!
+                    <i class="fas fa-times"></i>
+                </div>
+
+            </div>
+
+            <div class="demo-code flex">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C0.93%29&t=base16-dark&wt=none&l=javascript&width=625.3600034713745&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=30px&ln=false&fl=1&fm=dm&fs=10px&lh=129%25&si=false&es=2x&wm=false&code=%252F%252F%2520Success%2520-%2520Alert%250A%253Cdiv%2520class%253D%2522alert-container%2520success-alert%2520flex%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2509%253Ci%2520class%253D%2522fas%2520fa-check-circle%2522%253E%253C%252Fi%253E%250A%2509Success%2520Alert%21%250A%2509%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A%250A%252F%252F%2520Error%2520-%2520Alert%250A%253Cdiv%2520class%253D%2522alert-container%2520error-alert%2520flex%2522%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2522%253E%253C%252Fi%253E%250A%2509Error%2520Alert%21%250A%2509%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A%250A%252F%252F%2520Info%2520-%2520Alert%250A%253Cdiv%2520class%253D%2522alert-container%2520info-alert%2520flex%2522%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-info-circle%2522%253E%253C%252Fi%253E%250A%2509Info%2520Alert%21%250A%2509%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A%250A%252F%252F%2520Warning%2520-%2520Alert%250A%253Cdiv%2520class%253D%2522alert-container%2520warning-alert%2520flex%2522%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-skull-crossbones%2522%253E%253C%252Fi%253E%250A%2509Warning%2520Alert%21%250A%2509%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A"
+                    style="width: 841px; height: 676px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                </iframe>
+            </div>
+
+            <hr class="horizontal-line-break">
+
+            <!-- Outline Light Colored Alerts -->
+            <h3 class="component-eg">Examples of Outlined light colored alerts</h3>
+            <p class="component-eg-desc">Here we have alerts in a lighter shade.
+                Include classses like <strong class="imp-data">success-alert-outline,
+                    error-alert-outline, info-alert-outline, and warning-alert-outline</strong> for different variants.
+            </p>
+
+            <div class="comp-live flex">
+                <div class="alert-container success-alert-outline flex">
+                    <i class="fas fa-check-circle"></i>
+                    Success Alert!
+                    <i class="fas fa-times"></i>
+                </div>
+
+                <div class="alert-container error-alert-outline flex">
+                    <i class="fas fa-exclamation-triangle"></i>
+                    Error Alert!
+                    <i class="fas fa-times"></i>
+                </div>
+
+                <div class="alert-container info-alert-outline flex">
+                    <i class="fas fa-info-circle"></i>
+                    Info Alert!
+                    <i class="fas fa-times"></i>
+                </div>
+
+                <div class="alert-container warning-alert-outline flex">
+                    <i class="fas fa-skull-crossbones"></i>
+                    Warning Alert!
+                    <i class="fas fa-times"></i>
+                </div>
+
+            </div>
+
+            <!-- code demo -->
+            <div class="demo-code flex">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C0.93%29&t=base16-dark&wt=none&l=javascript&width=570.799998998642&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=30px&ln=false&fl=1&fm=dm&fs=10px&lh=129%25&si=false&es=2x&wm=false&code=%252F%252F%2520Success%2520Outline%2520-%2520Alert%250A%253Cdiv%2520class%253D%2522alert-container%2520success-alert-outline%2520flex%2522%253E%2520%2520%2520%2520%2520%2520%2520%250A%2509%253Ci%2520class%253D%2522fas%2520fa-check-circle%2522%253E%253C%252Fi%253E%250A%2509Success%2520Alert%21%250A%2509%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A%250A%252F%252F%2520Error%2520Outline%2520-%2520Alert%250A%253Cdiv%2520class%253D%2522alert-container%2520error-alert-outline%2520flex%2522%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2522%253E%253C%252Fi%253E%250A%2509Error%2520Alert%21%250A%2509%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A%250A%252F%252F%2520Info%2520Outline%2520-%2520Alert%250A%253Cdiv%2520class%253D%2522alert-container%2520info-alert-outline%2520flex%2522%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-info-circle%2522%253E%253C%252Fi%253E%250A%2509Info%2520Alert%21%250A%2509%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A%250A%252F%252F%2520Warning%2520Outline%2520-%2520Alert%250A%253Cdiv%2520class%253D%2522alert-container%2520warning-alert-outline%2520flex%2522%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-skull-crossbones%2522%253E%253C%252Fi%253E%250A%2509Warning%2520Alert%21%250A%2509%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A"
+                    style="width: 841px; height: 676px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+
+            <hr class="horizontal-line-break">
+
+            <!-- white BG alerts -->
+            <h3 class="component-eg">Examples of white colored alerts</h3>
+            <p class="component-eg-desc">Here we have alerts with white background.
+                Include classs <strong class="imp-data">white-bg
+                </strong> for different variants.
+            </p>
+
+            <div class="comp-live flex">
+                <div class="alert-container success-alert-outline white-bg flex">
+                    <i class="fas fa-check-circle"></i>
+                    Success Alert!
+                    <i class="fas fa-times"></i>
+                </div>
+
+                <div class="alert-container error-alert-outline white-bg flex">
+                    <i class="fas fa-exclamation-triangle"></i>
+                    Error Alert!
+                    <i class="fas fa-times"></i>
+                </div>
+
+                <div class="alert-container info-alert-outline white-bg flex">
+                    <i class="fas fa-info-circle"></i>
+                    Info Alert!
+                    <i class="fas fa-times"></i>
+                </div>
+
+                <div class="alert-container warning-alert-outline white-bg flex">
+                    <i class="fas fa-skull-crossbones"></i>
+                    Warning Alert!
+                    <i class="fas fa-times"></i>
+                </div>
+
+            </div>
+
+            <!-- code demo -->
+            <div class="demo-code flex">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C0.93%29&t=base16-dark&wt=none&l=javascript&width=598.8399991989136&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=30px&ln=false&fl=1&fm=dm&fs=10px&lh=129%25&si=false&es=2x&wm=false&code=%252F%252F%2520Success%2520White%2520BG%2520%250A%253Cdiv%2520class%253D%2522alert-container%2520success-alert-outline%2520white-bg%2520flex%2522%253E%2520%2520%2520%250A%2509%253Ci%2520class%253D%2522fas%2520fa-check-circle%2522%253E%253C%252Fi%253E%250A%2509Success%2520Alert%21%250A%2509%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A%250A%252F%252F%2520Error%2520White%2520BG%2520%250A%253Cdiv%2520class%253D%2522alert-container%2520error-alert-outline%2520white-bg%2520flex%2522%253E%2520%250A%2509%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2522%253E%253C%252Fi%253E%250A%2509Error%2520Alert%21%250A%2509%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A%250A%252F%252F%2520Info%2520White%2520BG%2520%250A%253Cdiv%2520class%253D%2522alert-container%2520info-alert-outline%2520white-bg%2520flex%2522%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-info-circle%2522%253E%253C%252Fi%253E%250A%2509Info%2520Alert%21%250A%2509%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A%250A%252F%252F%2520Warning%2520White%2520BG%250A%253Cdiv%2520class%253D%2522alert-container%2520warning-alert-outline%2520white-bg%2520flex%2522%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-skull-crossbones%2522%253E%253C%252Fi%253E%250A%2509Warning%2520Alert%21%250A%2509%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A"
+                    style="width: 841px; height: 676px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+
+        </main>
+
+
+        <footer class="footer flex">
+            <h3 class="next-compo"><a class="next-compo" href="../avatar/avatar.html"><i
+                        class="fas fa-chevron-circle-left"></i> Avatar</i></a>
+                <h3 class="next-compo"><a class="next-compo" href="../badge/badge.html">Badge <i
+                            class="fas fa-chevron-circle-right"></i></a>
+                </h3>
+        </footer>
+    </section>
+</body>
+
+</html>
