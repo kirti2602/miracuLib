@@ -1,10 +1,6 @@
 @import '../../homepage/homepage.css';
 @import '../document.css';
 
-/*need to remove after merge*/
-/* @import '../avatar/avatar.css'; */
-
-
 .comp-live{
 flex-direction: column;
 gap: 1rem;
