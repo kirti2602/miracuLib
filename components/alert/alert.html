@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alert</title>
+    <link rel="stylesheet" href="alert.css">
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/1465705b72.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="homepage-container">
+
+        <nav class="nav-bar padding2rem flex cursor-pointer">
+
+            <a href="../../index.html"><img class="logo" src="../../images/logo-sm.png" alt="logo"></a>
+
+            <a href="../../homepage/homepage.html">Home</a>
+
+            <!-- social media links -->
+            <div class="social-links flex cursor-pointer">
+                <a target="_blank" href="https://github.com/kirti2602"><i class="fab fa-github fa-2x"></i></a>
+                <a target="_blank" href="https://www.linkedin.com/in/kirti--sharma/"><i
+                        class="fab fa-linkedin fa-2x"></i></a>
+                <a target="_blank" href="https://twitter.com/_keeerti"><i class="fab fa-twitter fa-2x"></i></a>
+            </div>
+        </nav>
+
+        <aside class="side-bar">
+            <ul class="sidebar-list flex cursor-pointer">
+                <a href="">
+                    <h1><i class="fas fa-rocket"></i> Get Started</h1>
+                </a>
+                <a href="../../homepage/homepage.html">
+                    <li>Installation</li>
+                </a>
+
+                <a href="">
+                    <h1><i class="fas fa-puzzle-piece"></i> Components</h1>
+                </a>
+                <a href="avatar.html">
+                    <li>Avatar</li>
+                </a>
+                <a href="../alert/alert.html">
+                    <li class="selected">Alert</li>
+                </a>
+                <a href="../badge/badge.html">
+                    <li>Badge</li>
+                </a>
+                <a href="../button/button.html">
+                    <li>Button</li>
+                </a>
+                <a href="../card/card.html">
+                    <li>Card</li>
+                </a>
+                <a href="../image/image.html">
+                    <li>Image </li>
+                </a>
+                <a href="../input/input.html">
+                    <li>Input</li>
+                </a>
+                <a href="../text-utilities/text-utilities.html">
+                    <li>Text Utilities</li>
+                </a>
+                <a href="../lists/lists.html">
+                    <li>Lists</li>
+                </a>
+                <a href="../modal/modal.html">
+                    <li>Modal</li>
+                </a>
+                <a href="../rating/rating.html">
+                    <li>Rating </li>
+                </a>
+                <a href="../snackbar/snackbar.html">
+                    <li>Snackbar</li>
+                </a>
+                <a href="../grid/grid.html">
+                    <li>Grid</li>
+                </a>
+                <a href="../navigation/navigation.html">
+                    <li>Naviagtion</li>
+                </a>
+                <a href="../slider/slider.html">
+                    <li>Slider</li>
+                </a>
+            </ul>
+        </aside>
+
+        <main class="main-content padding2rem">
+
+            <!-- avatarts out of SVGs -->
+            <h1 class="component-title">Alerts</h1>
+            <p class="component-description">An alert displays a short, important message in a way that attracts the
+                user's attention without interrupting the user's task.</p>
+
+            <h3 class="component-eg">Examples of solid Alerts</h3>
+            <p class="component-eg-desc">Alerts are available in 4 solid variants - <strong class="imp-data">Success,
+                    Error, Info and Warning.</strong>
+                Include class(s) on the basis of whatever Alert(s).
+            </p>
+
+            <div class="comp-live flex">
+                <div class="alert-container success-alert flex">
+                    <i class="fas fa-check-circle"></i>
+                    Success Alert!
+                    <i class="fas fa-times"></i>
+                </div>
+
+                <div class="alert-container error-alert flex">
+                    <i class="fas fa-exclamation-triangle"></i>
+                    Error Alert!
+                    <i class="fas fa-times"></i>
+                </div>
+
+                <div class="alert-container info-alert flex">
+                    <i class="fas fa-info-circle"></i>
+                    Info Alert!
+                    <i class="fas fa-times"></i>
+                </div>
+
+                <div class="alert-container warning-alert flex">
+                    <i class="fas fa-skull-crossbones"></i>
+                    Warning Alert!
+                    <i class="fas fa-times"></i>
+                </div>
+
+            </div>
+
+            <div class="demo-code flex">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C0.93%29&t=base16-dark&wt=none&l=javascript&width=625.3600034713745&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=30px&ln=false&fl=1&fm=dm&fs=10px&lh=129%25&si=false&es=2x&wm=false&code=%252F%252F%2520Success%2520-%2520Alert%250A%253Cdiv%2520class%253D%2522alert-container%2520success-alert%2520flex%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2509%253Ci%2520class%253D%2522fas%2520fa-check-circle%2522%253E%253C%252Fi%253E%250A%2509Success%2520Alert%21%250A%2509%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A%250A%252F%252F%2520Error%2520-%2520Alert%250A%253Cdiv%2520class%253D%2522alert-container%2520error-alert%2520flex%2522%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2522%253E%253C%252Fi%253E%250A%2509Error%2520Alert%21%250A%2509%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A%250A%252F%252F%2520Info%2520-%2520Alert%250A%253Cdiv%2520class%253D%2522alert-container%2520info-alert%2520flex%2522%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-info-circle%2522%253E%253C%252Fi%253E%250A%2509Info%2520Alert%21%250A%2509%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A%250A%252F%252F%2520Warning%2520-%2520Alert%250A%253Cdiv%2520class%253D%2522alert-container%2520warning-alert%2520flex%2522%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-skull-crossbones%2522%253E%253C%252Fi%253E%250A%2509Warning%2520Alert%21%250A%2509%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A"
+                    style="width: 841px; height: 676px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                </iframe>
+            </div>
+
+            <hr class="horizontal-line-break">
+
+            <!-- Avatar out of alphabets -->
+            <h3 class="component-eg">Examples of alphabetical avatars</h3>
+            <p class="component-eg-desc">An avatar can be created using initial letters of user. You need to include
+                class <strong class="imp-data">avatar-alpha</strong> along with <strong class="imp-data">avatar</strong>
+                and <strong class="imp-data">size</strong> class.
+                (e.g. <strong class="imp-data">class="avatar avatar-lg-size avatar-alpha"</strong>). <br>
+                Don't forget to add <strong class="imp-data">flex</strong> class to have the alphabets in center(both
+                vertically and horizontally)
+            </p>
+
+            <div class="comp-live flex">
+                <span class="avatar avatar-lg-size avatar-alpha flex">KS</span>
+                <span class="avatar avatar-md-size avatar-alpha flex">KS</span>
+                <span class="avatar avatar-sm-size avatar-alpha flex">KS</span>
+                <span class="avatar avatar-xs-size avatar-alpha flex">K</span>
+            </div>
+
+            <!-- code demo -->
+            <div class="demo-code flex">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C0.93%29&t=base16-dark&wt=none&l=auto&width=745.7200036048889&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=30px&ln=false&fl=1&fm=dm&fs=10px&lh=129%25&si=false&es=2x&wm=false&code=%253Cspan%2520class%253D%2522avatar%2520avatar-lg-size%2520avatar-alpha%2520flex%2522%253EKS%253C%252Fspan%253E%2520%250A%250A%253Cspan%2520class%253D%2522avatar%2520avatar-md-size%2520avatar-alpha%2520flex%2522%253EKS%253C%252Fspan%253E%250A%250A%253Cspan%2520class%253D%2522avatar%2520avatar-sm-size%2520avatar-alpha%2520flex%2522%253EKS%253C%252Fspan%253E%250A%250A%253Cspan%2520class%253D%2522avatar%2520avatar-xs-size%2520avatar-alpha%2520flex%2522%253EK%253C%252Fspan%253E%250A"
+                    style="width: 841px; height: 331px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+
+        </main>
+
+
+        <footer class="footer flex">
+            <h3 class="next-compo"><a class="next-compo" href="../avatar/avatar.html"><i
+                        class="fas fa-chevron-circle-left"></i> Home</i></a>
+                <h3 class="next-compo"><a class="next-compo" href="../badge/badge.html">Alerts <i
+                            class="fas fa-chevron-circle-right"></i></a>
+                </h3>
+        </footer>
+    </section>
+</body>
+
+</html>
