@@ -2,7 +2,7 @@
 @import '../../homepage/homepage.css';
 @import '../avatar/avatar.css';
 
-.btn{
+.btn {
     padding: 0.7rem 2rem;
     border-radius: 2rem;
     border: 2px solid transparent;
@@ -11,88 +11,95 @@
 }
 
 /* brightens the button on hover */
-.btn:hover{
+.btn:hover {
     filter: brightness(130%);
     cursor: pointer;
 }
 
 
 /*solid buttons*/
-.success-btn{
+.success-btn {
     background-color: var(--success-green);
 }
 
-.error-btn{
+.error-btn {
     background-color: var(--error-red);
 }
 
-.info-btn{
+.info-btn {
     background-color: var(--info-blue);
 }
 
-.warning-btn{
+.warning-btn {
     background-color: var(--warning-yellow);
 }
 
 
 /*outline buttons*/
 
-.outline-hover:hover{
+.outline-hover:hover {
     color: var(--secondary-white);
 }
 
-.success-btn-outline{
+.success-btn-outline {
     border: 2px solid var(--success-green);
     color: var(--success-green);
-} 
+}
 
-.success-btn-outline:hover{
+.success-btn-outline:hover {
     background-color: var(--success-green);
 }
 
-.error-btn-outline{
+.error-btn-outline {
     border: 2px solid var(--error-red);
     color: var(--error-red);
 }
 
-.error-btn-outline:hover{
+.error-btn-outline:hover {
     background-color: var(--error-red);
 }
 
-.info-btn-outline{
+.info-btn-outline {
     border: 2px solid var(--info-blue);
     color: var(--info-blue);
 }
 
-.info-btn-outline:hover{
-    background-color:  var(--info-blue);
+.info-btn-outline:hover {
+    background-color: var(--info-blue);
 }
 
-.warning-btn-outline{
+.warning-btn-outline {
     border: 2px solid var(--warning-yellow);
     color: var(--warning-yellow);
 }
 
-.warning-btn-outline:hover{
+.warning-btn-outline:hover {
     background-color: var(--warning-yellow);
 }
 
 /*link buttons*/
 
-.link-btn{
+.link-btn {
     color: var(--secondary-white);
 }
 
-.link-btn:hover{
+.link-btn:hover {
     text-decoration: underline;
     filter: brightness(100%);
 }
 
-/*icon-btn*/
-.icon-btn-flex{
+/*btn with icon*/
+.icon-btn-flex {
     gap: 1rem;
 }
 
+/*icon only button*/
+.only-icon-btn {
+    border-radius: 50%;
+    padding: 1rem;
+}
 
-
-
+/*floating CTA*/
+.float-cta {
+    box-shadow: 5px 8px 20px var(--off-black-typography);
+}
