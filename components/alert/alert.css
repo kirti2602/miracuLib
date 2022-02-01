@@ -14,7 +14,7 @@ gap: 1rem;
     padding: 1rem 2rem;
     gap: 1.3rem;
     min-width: 30rem;
-    border-radius: 2rem;
+    border-radius: 0.5rem;
     border: 2px solid transparent;
     color: var(--secondary-white);
     font-weight: 500;
