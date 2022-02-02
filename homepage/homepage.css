@@ -31,6 +31,10 @@
     font-family: var(--body-font-family);
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 /*utilities*/
 
 /* --------------- */
@@ -41,6 +45,7 @@
 .flex{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 a{
@@ -75,7 +80,7 @@ body {
     "sidebar main main main main"
     "sidebar footer footer footer footer"
     ;
-    height: 150vh;  
+    height: 150vh; 
 }
 
 .nav-bar{
@@ -83,6 +88,9 @@ body {
     background-color: var(--primary-violet);
     color: white;
     gap: 5rem;
+    /* position: fixed; */
+    /* width: 100%;
+    z-index: 1000; */
 }
 .nav-bar a{
     font-size: 1.5rem;
@@ -108,9 +116,12 @@ body {
 
 .side-bar{
     grid-area: sidebar;
-    overflow-y: scroll;
+    overflow-y: auto;
     font-weight: 600;
     padding: 1rem;
+
+    /* position: fixed; */
+    /* z-index: 4; */
 }
 
 .sidebar-list{
