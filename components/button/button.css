@@ -1,5 +1,6 @@
 @import '../document.css';
 @import '../../homepage/homepage.css';
+@import '../avatar/avatar.css';
 
 .btn {
     padding: 0.7rem 2rem;
@@ -101,4 +102,4 @@
 /*floating CTA*/
 .float-cta {
     box-shadow: 5px 8px 20px var(--off-black-typography);
-}git 
+}
