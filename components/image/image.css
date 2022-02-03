@@ -1,0 +1,14 @@
+@import '../../homepage/homepage.css';
+@import '../document.css';
+
+
+.responsive-img{
+    width: 100%;
+    height: auto;
+}
+
+.round-img{
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+}
