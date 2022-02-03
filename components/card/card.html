@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <link rel="stylesheet" href="card.css">
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/1465705b72.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="homepage-container">
+
+        <nav class="nav-bar padding2rem flex cursor-pointer">
+
+            <a href="../../index.html"><img class="logo" src="../../images/logo-sm.png" alt="logo"></a>
+
+            <a href="../../homepage/homepage.html">Home</a>
+
+            <!-- social media links -->
+            <div class="social-links flex cursor-pointer">
+                <a target="_blank" href="https://github.com/kirti2602"><i class="fab fa-github fa-2x"></i></a>
+                <a target="_blank" href="https://www.linkedin.com/in/kirti--sharma/"><i
+                        class="fab fa-linkedin fa-2x"></i></a>
+                <a target="_blank" href="https://twitter.com/_keeerti"><i class="fab fa-twitter fa-2x"></i></a>
+            </div>
+        </nav>
+
+        <aside class="side-bar">
+            <ul class="sidebar-list flex cursor-pointer">
+
+                <h1><i class="fas fa-rocket"></i> Get Started</h1>
+
+                <a href="../../homepage/homepage.html">
+                    <li>Installation</li>
+                </a>
+
+                <h1><i class="fas fa-puzzle-piece"></i> Components</h1>
+
+                <a href="../avatar/avatar.html">
+                    <li>Avatar</li>
+                </a>
+                <a href="../alert/alert.html">
+                    <li>Alert</li>
+                </a>
+                <a href="../badge/badge.html">
+                    <li>Badge</li>
+                </a>
+                <a href="../button/button.html">
+                    <li>Button</li>
+                </a>
+                <a href="../card/card.html">
+                    <li class="selected">Card</li>
+                </a>
+                <a href="../image/image.html">
+                    <li>Image </li>
+                </a>
+                <a href="../input/input.html">
+                    <li>Input</li>
+                </a>
+                <a href="../text-utilities/text-utilities.html">
+                    <li>Text Utilities</li>
+                </a>
+                <a href="../lists/lists.html">
+                    <li>Lists</li>
+                </a>
+                <a href="../modal/modal.html">
+                    <li>Modal</li>
+                </a>
+                <a href="../rating/rating.html">
+                    <li>Rating </li>
+                </a>
+                <a href="../snackbar/snackbar.html">
+                    <li>Snackbar</li>
+                </a>
+                <a href="../grid/grid.html">
+                    <li>Grid</li>
+                </a>
+                <a href="../navigation/navigation.html">
+                    <li>Naviagtion</li>
+                </a>
+                <a href="../slider/slider.html">
+                    <li>Slider</li>
+                </a>
+            </ul>
+        </aside>
+
+        <main class="main-content padding2rem">
+
+            <h1 class="component-title">Cards</h1>
+            <p class="component-description">Card are used to show user related data collectively, like product details.
+            </p>
+
+            <h3 class="component-eg">Examples of Cards with Badge</h3>
+
+            <!-- Cards with badge -->
+
+            <div class="comp-live flex">
+
+                <div class="card-outer-body">
+                    <div class="card-inner-body">
+
+                        <div class="img-body">
+                            <img src="../../images/shikamaru.jpg" alt="">
+                            <span class="label-badge">Trending</span>
+                        </div>
+
+                        <div class="card-info flex">
+                            <span class="card-title">Shikamaru Nara Action Figure | Naruto Shippendun</span> <br>
+                            <small class="card-rating"><i class="fas fa-star"></i> 5</small>
+                            
+                            <div class="price-wishlist flex">
+                                    <span class="current-price">₹1079</span>
+                                    <small class="previous-price">₹2000</small>
+                                    <small class="discount">46% off</small>
+                                    <button class="btn-wishlist"><i class="fas fa-heart"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="demo-code flex">
+                <iframe
+                src="https://carbon.now.sh/embed/CzzQOJ5U274PG5CTgJo1"
+                style="width: 841px; height: 697px; border:0; transform: scale(1); overflow:hidden; margin-top: 2rem;"
+                sandbox="allow-scripts allow-same-origin">
+              </iframe>
+               
+            </div>
+
+            <hr class="horizontal-line-break" style="margin-top: 0;">
+
+            <!-- Outline Light Colored Alerts -->
+            <h3 class="component-eg">Examples of Outline buttons</h3>
+
+            <div class="comp-live flex">
+                <button class="btn success-btn-outline outline-hover">Success</button>
+                <button class="btn error-btn-outline outline-hover">Error</button>
+                <button class="btn info-btn-outline outline-hover">Info</button>
+                <button class="btn warning-btn-outline outline-hover">Warning</button>
+            </div>
+
+            <!-- code demo -->
+            <div class="demo-code flex">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C0.93%29&t=base16-dark&wt=none&l=javascript&width=663.9599989652634&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=30px&ln=false&fl=1&fm=dm&fs=10px&lh=129%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520success-btn-outline%2520outline-hover%2522%253ESuccess%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520error-btn-outline%2520outline-hover%2522%253EError%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520info-btn-outline%2520outline-hover%2522%253EInfo%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520warning-btn-outlin%2520outline-hover%2522%253EWarning%253C%252Fbutton%253E%250A"
+                    style="width: 793px; height: 260px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+
+            <hr class="horizontal-line-break">
+
+            <!-- Link buttons -->
+            <h3 class="component-eg">Examples of Link Buttons</h3>
+            <p class="component-eg-desc">Here we have buttons with link functionality. Once clicked they'll redirect to
+                the source mentioned. <br><strong class="imp-data">Hover over buttons to see change</strong>
+            </p>
+
+            <div class="comp-live flex">
+                <button class="btn success-btn link-btn"> <a class="link-btn" href="#">Success</a> </button>
+                <button class="btn error-btn link-btn"><a class="link-btn" href="#">Error</a> </button>
+                <button class="btn info-btn link-btn"><a class="link-btn" href="#">Info</a> </button>
+                <button class="btn warning-btn link-btn"><a class="link-btn" href="#">Warning</a> </button>
+            </div>
+
+            <!-- code demo -->
+            <div class="demo-code flex">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C0.93%29&t=base16-dark&wt=none&l=javascript&width=612.4400038719177&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=30px&ln=false&fl=1&fm=dm&fs=10px&lh=129%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520success-btn%2520link-btn%2522%253E%2520%250A%2520%2520%253Ca%2520class%253D%2522link-btn%2522%2520href%253D%2522%2523%2522%253ESuccess%253C%252Fa%253E%2520%250A%253C%252Fbutton%253E%250A%250A%253Cbutton%2520class%253D%2522btn%2520error-btn%2520link-btn%2522%253E%2520%250A%2520%2520%253Ca%2520class%253D%2522link-btn%2522%2520href%253D%2522%2523%2522%253EError%253C%252Fa%253E%250A%253C%252Fbutton%253E%2520%2520%250A%250A%253Cbutton%2520class%253D%2522btn%2520info-btn%2520link-btn%2522%253E%2520%250A%2520%2520%253Ca%2520class%253D%2522link-btn%2522%2520href%253D%2522%2523%2522%253EInfo%253C%252Fa%253E%250A%253C%252Fbutton%253E%250A%250A%253Cbutton%2520class%253D%2522btn%2520warning-btn%2520link-btn%2522%253E%2520%250A%2520%2520%253Ca%2520class%253D%2522link-btn%2522%2520href%253D%2522%2523%2522%253EWarning%253C%252Fa%253E%2520%250A%253C%252Fbutton%253E%250A%2520%2520"
+                    style="width: 841px; height: 459px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+
+            <hr class="horizontal-line-breaker">
+            <!-- ----------------------------------------------------------------------------------------------- -->
+
+            <h3 class="component-eg">Examples of Button with Icons</h3>
+
+            <!-- Buttons with icon -->
+            <div class="comp-live flex">
+                <button class="btn success-btn flex icon-btn-flex">
+                    <i class="fas fa-check"></i>
+                    Accept
+                </button>
+
+                <button class="btn error-btn flex icon-btn-flex">
+                    <i class="fas fa-times"></i>
+                    Decline
+                </button>
+
+                <button class="btn info-btn flex icon-btn-flex">
+                    <i class="fas fa-cloud-download-alt"></i>
+                    Download
+                </button>
+
+                <button class="btn warning-btn flex icon-btn-flex">
+                    <i class="fas fa-shopping-cart"></i>
+                    Buy Now
+                </button>
+            </div>
+
+            <!-- code example -->
+            <div class="demo-code flex">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C0.93%29&t=base16-dark&wt=none&l=javascript&width=746.3200024366379&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=30px&ln=false&fl=1&fm=dm&fs=10px&lh=129%25&si=false&es=2x&wm=false&code=%250A%253Cbutton%2520class%253D%2522btn%2520success-btn%2520flex%2520icon-btn-flex%2522%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-check%2522%253E%253C%252Fi%253E%250A%2509Accept%250A%253C%252Fbutton%253E%250A%250A%253Cbutton%2520class%253D%2522btn%2520error-btn%2520flex%2520icon-btn-flex%2522%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%2509Decline%250A%253C%252Fbutton%253E%250A%250A%253Cbutton%2520class%253D%2522btn%2520info-btn%2520flex%2520icon-btn-flex%2522%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-cloud-download-alt%2522%253E%253C%252Fi%253E%250A%2509Download%250A%253C%252Fbutton%253E%250A%250A%253Cbutton%2520class%253D%2522btn%2520warning-btn%2520flex%2520icon-btn-flex%2522%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%250A%2509Buy%2520Now%250A%253C%252Fbutton%253E%250A"
+                    style="width: 841px; height: 550px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+
+            <hr class="horizontal-line-breaker">
+            <!-- ----------------------------------------------------------------------------------------------- -->
+
+            <!-- Icon buttons -->
+            <h3 class="component-eg">Examples of Icon buttons</h3>
+
+            <!-- Buttons with icon -->
+            <div class="comp-live flex">
+                <button class="btn success-btn only-icon-btn flex">
+                    <i class="fas fa-check"></i>
+                </button>
+
+                <button class="btn error-btn only-icon-btn flex">
+                    <i class="fas fa-power-off"></i>
+                </button>
+
+                <button class="btn info-btn only-icon-btn flex">
+                    <i class="fas fa-cloud-download-alt"></i>
+                </button>
+
+                <button class="btn warning-btn only-icon-btn flex">
+                    <i class="fas fa-shopping-cart"></i>
+                </button>
+            </div>
+
+            <!-- code example -->
+            <div class="demo-code flex">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C0.93%29&t=base16-dark&wt=none&l=javascript&width=589.9600006341934&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=30px&ln=false&fl=1&fm=dm&fs=10px&lh=129%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520success-btn%2520only-icon-btn%2520flex%2522%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-check%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%250A%253Cbutton%2520class%253D%2522btn%2520error-btn%2520only-icon-btn%2520flex%2522%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%250A%253Cbutton%2520class%253D%2522btn%2520info-btn%2520only-icon-btn%2520flex%2522%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-cloud-download-alt%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%250A%253Cbutton%2520class%253D%2522btn%2520warning-btn%2520only-icon-btn%2520flex%2522%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A"
+                    style="width: 841px; height: 459px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+
+
+            <hr class="horizontal-line-breaker">
+            <!-- ----------------------------------------------------------------------------------------------- -->
+
+            <h3 class="component-eg">Examples of floating CTA</h3>
+
+            <!-- Floating buttons -->
+            <div class="comp-live flex">
+                <button class="btn success-btn only-icon-btn flex float-cta">
+                    <i class="fas fa-plus"></i>
+                </button>
+
+                <button class="btn error-btn only-icon-btn flex float-cta">
+                    <i class="fas fa-power-off"></i>
+                </button>
+
+                <button class="btn info-btn only-icon-btn flex float-cta">
+                    <i class="fas fa-cloud-download-alt"></i>
+                </button>
+
+                <button class="btn warning-btn only-icon-btn flex float-cta">
+                    <i class="fas fa-shopping-cart"></i>
+                </button>
+            </div>
+
+            <!-- code example -->
+            <div class="demo-code flex">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C0.93%29&t=base16-dark&wt=none&l=javascript&width=592.8799985647202&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=30px&ln=false&fl=1&fm=dm&fs=10px&lh=129%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520success-btn%2520only-icon-btn%2520flex%2520float-cta%2522%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-plus%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%250A%253Cbutton%2520class%253D%2522btn%2520error-btn%2520only-icon-btn%2520flex%2520float-cta%2522%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-power-off%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%250A%253Cbutton%2520class%253D%2522btn%2520info-btn%2520only-icon-btn%2520flex%2520float-cta%2522%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-cloud-download-alt%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%250A%253Cbutton%2520class%253D%2522btn%2520warning-btn%2520only-icon-btn%2520flex%2520float-cta%2522%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A"
+                    style="width: 841px; height: 459px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+
+        </main>
+
+
+        <footer class="footer flex">
+            <h3 class="next-compo"><a class="next-compo" href="../button/button.html"><i
+                        class="fas fa-chevron-circle-left"></i> Button</i></a>
+                <h3 class="next-compo"><a class="next-compo" href="../image/image.html">Image <i
+                            class="fas fa-chevron-circle-right"></i></a>
+                </h3>
+        </footer>
+    </section>
+</body>
+
+</html>

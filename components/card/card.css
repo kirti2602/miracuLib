@@ -1,0 +1,89 @@
+@import '../document.css';
+@import '../../homepage/homepage.css';
+
+
+.card-outer-body {
+    background-color: var(--secondary-white);
+    padding: 1rem;
+}
+
+.card-inner-body {
+    max-width: fit-content;
+
+}
+
+.img-body img {
+    height: 300px;
+}
+
+.img-body {
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.label-badge {
+    background-color: var(--success-green);
+    font-size: 0.3rem;
+    padding: 0.2rem 1rem 0.2rem 0.1rem;
+    color: var(--secondary-white);
+    position: absolute;
+    left: 0;
+    top: 1rem;
+}
+
+.card-info {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.card-title {
+    color: var(--off-black-typography);
+}
+
+.card-rating {
+    background-color: var(--warning-yellow);
+    color: var(--secondary-white);
+    padding: 0.1rem 0.5rem 0.1rem 0.1rem;
+    border-radius: 0.1rem;
+}
+
+.price-wishlist {
+    width: 100%;
+    gap: 0.2rem;
+}
+
+.current-price {
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.previous-price {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.discount {
+    color: var(--success-green);
+    font-weight: bold;
+}
+
+.btn-wishlist {
+    margin-left: auto;
+    background-color: transparent;
+    border: none;
+}
+
+.fa-heart {
+    border-radius: 50%;
+    font-size: larger;
+    color: gray;
+    border: 2px solid gray;
+    padding: 0.5rem;
+}
+
+.fa-heart:hover {
+    background-color: var(--error-red-light);
+    color: var(--error-red);
+    border-color: var(--error-red);
+    filter: brightness(220%);
+}
