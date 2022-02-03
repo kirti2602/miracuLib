@@ -1,10 +1,16 @@
 @import '../document.css';
 @import '../../homepage/homepage.css';
-
+@import '../../components/button/button.css';
 
 .card-outer-body {
     background-color: var(--secondary-white);
     padding: 1rem;
+    position: relative;
+}
+
+.card-outer-body:hover{
+    box-shadow: 10px 10px 20px var(--off-black-typography);
+
 }
 
 .card-inner-body {
@@ -86,4 +92,77 @@
     color: var(--error-red);
     border-color: var(--error-red);
     filter: brightness(220%);
+}
+
+/* -------------------------------------- */
+/* card with dismiss */
+.dismiss{
+ color: var(--off-black-typography);
+ /* color: var(--secondary-white); */
+ position: absolute;
+ top: 0.5rem;
+ right: 0rem;
+ background-color: transparent;
+ border: none;
+}
+
+.dismiss:hover{
+    color: var(--error-red);
+}
+
+/*card with shadow*/
+.card-shadow{
+    box-shadow: 10px 10px 20px var(--off-black-typography);
+}
+
+/*card with text-overlay*/
+.text-overlay{
+    filter: opacity(50%);
+}
+
+.overlay-text{
+    color: var(--error-red);
+    background-color: var(--secondary-white);
+    padding: 1rem;
+    position: absolute;
+    bottom: 50%;
+    left: 30%;
+    font-weight: 600;
+    font-size: larger;
+}
+
+/*horizontal card*/
+.horizontal-card-outer{
+    align-items: center;
+}
+
+.horizontal-card{
+    display: flex;
+    min-width: max-content;
+    gap: 1rem;
+    height: fit-content;
+    position: relative;
+}
+
+.column-direction{
+    margin-top: 1rem;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 1rem;
+    height: 50%;
+}
+
+.price-only{
+    gap: 1rem;
+}
+
+.wishlist-icon{
+    border: none;
+    padding: none;
+    color: var(--error-red);
+}
+
+.cart-wishlist{
+    gap: 1rem;
 }
