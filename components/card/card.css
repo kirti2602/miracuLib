@@ -166,3 +166,16 @@
 .cart-wishlist{
     gap: 1rem;
 }
+
+/*text-only-card*/
+
+.text-only-card{
+    width: 50%;
+}
+
+/*iframe universal css- after merge transfer to homepage.css*/
+iframe{
+    width: 80%;
+    padding-top: 2rem;
+    margin: auto;
+}
