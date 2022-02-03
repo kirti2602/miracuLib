@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <link rel="stylesheet" href="card.css">
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/1465705b72.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="homepage-container">
+
+        <nav class="nav-bar padding2rem flex cursor-pointer">
+
+            <a href="../../index.html"><img class="logo" src="../../images/logo-sm.png" alt="logo"></a>
+
+            <a href="../../homepage/homepage.html">Home</a>
+
+            <!-- social media links -->
+            <div class="social-links flex cursor-pointer">
+                <a target="_blank" href="https://github.com/kirti2602"><i class="fab fa-github fa-2x"></i></a>
+                <a target="_blank" href="https://www.linkedin.com/in/kirti--sharma/"><i
+                        class="fab fa-linkedin fa-2x"></i></a>
+                <a target="_blank" href="https://twitter.com/_keeerti"><i class="fab fa-twitter fa-2x"></i></a>
+            </div>
+        </nav>
+
+        <aside class="side-bar">
+            <ul class="sidebar-list flex cursor-pointer">
+
+                <h1><i class="fas fa-rocket"></i> Get Started</h1>
+
+                <a href="../../homepage/homepage.html">
+                    <li>Installation</li>
+                </a>
+
+                <h1><i class="fas fa-puzzle-piece"></i> Components</h1>
+
+                <a href="../avatar/avatar.html">
+                    <li>Avatar</li>
+                </a>
+                <a href="../alert/alert.html">
+                    <li>Alert</li>
+                </a>
+                <a href="../badge/badge.html">
+                    <li>Badge</li>
+                </a>
+                <a href="../button/button.html">
+                    <li>Button</li>
+                </a>
+                <a href="card.html">
+                    <li class="selected">Card</li>
+                </a>
+                <a href="../image/image.html">
+                    <li>Image </li>
+                </a>
+                <a href="../input/input.html">
+                    <li>Input</li>
+                </a>
+                <a href="../text-utilities/text-utilities.html">
+                    <li>Text Utilities</li>
+                </a>
+                <a href="../lists/lists.html">
+                    <li>Lists</li>
+                </a>
+                <a href="../modal/modal.html">
+                    <li>Modal</li>
+                </a>
+                <a href="../rating/rating.html">
+                    <li>Rating </li>
+                </a>
+                <a href="../snackbar/snackbar.html">
+                    <li>Snackbar</li>
+                </a>
+                <a href="../grid/grid.html">
+                    <li>Grid</li>
+                </a>
+                <a href="../navigation/navigation.html">
+                    <li>Naviagtion</li>
+                </a>
+                <a href="../slider/slider.html">
+                    <li>Slider</li>
+                </a>
+            </ul>
+        </aside>
+
+        <main class="main-content padding2rem">
+
+            <h1 class="component-title">Cards</h1>
+            <p class="component-description">Card are used to show user related data collectively, like product details.
+            </p>
+
+            <h3 class="component-eg">Examples of Cards with Badge</h3>
+
+            <!-- Cards with badge -->
+
+            <div class="comp-live flex">
+
+                <div class="card-outer-body">
+                    <div class="card-inner-body">
+
+                        <div class="img-body">
+                            <img src="../../images/shikamaru.jpg" alt="">
+                            <span class="label-badge">Trending</span>
+                        </div>
+
+                        <div class="card-info flex">
+                            <span class="card-title">Shikamaru Nara Action Figure | Naruto Shippendun</span> <br>
+                            <small class="card-rating"><i class="fas fa-star"></i> 5</small>
+
+                            <div class="price-wishlist flex">
+                                <span class="current-price">₹1079</span>
+                                <small class="previous-price">₹2000</small>
+                                <small class="discount">46% off</small>
+                                <button class="btn-wishlist"><i class="fas fa-heart"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="demo-code flex">
+                <iframe src="https://www.thiscodeworks.com/embed/61fbd1306ab14d0015c32d53"
+                    style="width: 80%; height: 359px;" frameborder="0"></iframe>
+
+            </div>
+
+            <hr class="horizontal-line-break">
+
+            <!-- ----------------------------------------------------------------------------------------------------------- -->
+            <!--2. Cards with Dismiss -->
+            <h3 class="component-eg">Examples of Card with Dismiss</h3>
+
+            <div class="comp-live flex">
+
+                <div class="card-outer-body">
+                    <div class="card-inner-body">
+
+                        <div class="img-body">
+                            <img src="../../images/bakugo-resize.jpg" alt="">
+                            <span class="label-badge">Trending</span>
+                            <button class="dismiss"><i class="fas fa-times-circle fa-lg"></i></button>
+                        </div>
+
+                        <div class="card-info flex">
+                            <span class="card-title">Cute Angry Bakugo Action Figure | MHA</span> <br>
+                            <small class="card-rating"><i class="fas fa-star"></i> 5</small>
+
+                            <div class="price-wishlist flex">
+                                <span class="current-price">₹1079</span>
+                                <small class="previous-price">₹2000</small>
+                                <small class="discount">46% off</small>
+                                <button class="btn-wishlist"><i class="fas fa-heart"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- code demo -->
+            <div class="demo-code flex">
+                <iframe src="https://www.thiscodeworks.com/embed/61fbd2886ab14d0015c32d5a"
+                    style="width: 80%; height: 372px;" frameborder="0"></iframe>
+            </div>
+
+            <hr class="horizontal-line-break">
+            <!-- ----------------------------------------------------------------------------------------------------- -->
+
+            <!-- cards with shadow -->
+            <h3 class="component-eg">Example of Card with Shadow</h3>
+
+            <div class="comp-live flex">
+                <div class="card-outer-body card-shadow">
+                    <div class="card-inner-body">
+
+                        <div class="img-body">
+                            <img src="../../images/uraraka.jpg" alt="">
+                            <span class="label-badge">Trending</span>
+                            <button class="dismiss"><i class="fas fa-times-circle fa-lg"></i></button>
+                        </div>
+
+                        <div class="card-info flex">
+                            <span class="card-title">Ochaco Uraraka Action Figure | MHA</span> <br>
+                            <small class="card-rating"><i class="fas fa-star"></i> 5</small>
+
+                            <div class="price-wishlist flex">
+                                <span class="current-price">₹1079</span>
+                                <small class="previous-price">₹2000</small>
+                                <small class="discount">46% off</small>
+                                <button class="btn-wishlist"><i class="fas fa-heart"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- code demo -->
+            <div class="demo-code flex">
+                <iframe src="https://www.thiscodeworks.com/embed/61fbda5d6ab14d0015c32d5c" style="height: 372px;"
+                    frameborder="0"></iframe>
+            </div>
+
+            <hr class="horizontal-line-breaker">
+            <!-- ----------------------------------------------------------------------------------------------- -->
+
+            <!-- Card with text-overlay -->
+            <h3 class="component-eg">Example of Card with Text Overlay</h3>
+
+            <div class="comp-live flex">
+                <div class="card-outer-body">
+                    <div class="card-inner-body text-overlay">
+
+                        <div class="img-body">
+                            <img class="text-overlay" src="../../images/tanjiro-resized.png" alt="">
+                        </div>
+
+                        <div class="card-info flex">
+                            <span class="card-title">Tanjiro Demon Slayer Black T-Shirt</span> <br>
+                            <small class="card-rating"><i class="fas fa-star"></i> 5</small>
+
+                            <div class="price-wishlist flex">
+                                <span class="current-price">₹1079</span>
+                                <small class="previous-price">₹2000</small>
+                                <small class="discount">46% off</small>
+                                <button class="btn-wishlist"><i class="fas fa-heart"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <span class="overlay-text">Out of Stock</span>
+                </div>
+            </div>
+
+            <!-- code example -->
+            <div class="demo-code flex">
+                <iframe src="https://www.thiscodeworks.com/embed/61fbdac16ab14d0015c32d60" style="height: 359px;"
+                    frameborder="0"></iframe>
+            </div>
+
+            <hr class="horizontal-line-breaker">
+            <!-- ----------------------------------------------------------------------------------------------- -->
+
+            <!-- Horizontal Cards -->
+            <h3 class="component-eg">Examples of Horizontal Card</h3>
+
+            <!-- Buttons with icon -->
+            <div class="comp-live flex">
+                <div class="card-outer-body">
+                    <div class="card-inner-body horizontal-card">
+
+                        <div class="img-body">
+                            <img src="../../images/jiraya-resized.jpg" alt="">
+                            <span class="label-badge">Trending</span>
+                        </div>
+
+                        <button class="dismiss"><i class="fas fa-times-circle fa-lg"></i></button>
+
+
+                        <div class="card-info flex">
+                            <h2>Wembley Toys</h2>
+                            <span class="card-title">Jiraya Sensei Action Figure | Naruto Shippendun</span> <br>
+                            <small class="card-rating"><i class="fas fa-star"></i> 5</small>
+
+                            <div class="price-wishlist flex column-direction">
+
+                                <div class="price-only flex">
+                                    <span class="current-price">₹1079</span>
+                                    <small class="previous-price">₹2000</small>
+                                    <small class="discount">46% off</small>
+                                </div>
+
+
+                                <div class="cart-wishlist flex">
+                                    <button class="btn error-btn flex icon-btn-flex">
+                                        <i class="fas fa-shopping-cart"></i>
+                                        Buy Now
+                                    </button>
+
+                                    <button class="btn error-btn-outline outline-hover">
+                                        <i class="fas fa-hand-holding-heart"></i> Wishlist</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- code example -->
+            <div class="demo-code flex">
+                <iframe src="https://www.thiscodeworks.com/embed/61fbe2746ab14d0015c32d70" style="height: 500px;"
+                    frameborder="0"></iframe>
+            </div>
+
+
+            <hr class="horizontal-line-breaker">
+            <!-- ----------------------------------------------------------------------------------------------- -->
+
+            <h3 class="component-eg">Example of Text-Only Card</h3>
+
+            <div class="comp-live flex">
+                <div class="card-outer-body text-only-card">
+                    <div class="card-inner-body">
+
+                        <button class="dismiss"><i class="fas fa-times-circle fa-lg"></i></button>
+
+                        <div class="card-info flex">
+                            <h2>Wembley Toys</h2>
+                            <span class="card-title">Jiraya Sensei Action Figure | Naruto Shippendun</span> <br>
+                            <small class="card-rating"><i class="fas fa-star"></i> 5</small>
+
+                            <div class="price-wishlist flex column-direction">
+
+                                <div class="price-only flex">
+                                    <span class="current-price">₹1079</span>
+                                    <small class="previous-price">₹2000</small>
+                                    <small class="discount">46% off</small>
+                                </div>
+
+                                <button class="btn error-btn-outline outline-hover">
+                                    <i class="fas fa-hand-holding-heart"></i> Wishlist</button>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- code example -->
+            <div class="demo-code flex">
+                <iframe src="https://www.thiscodeworks.com/embed/61fbe31a6ab14d0015c32d73"
+                    style="height: 424px; margin-bottom: 4rem;" frameborder="0"></iframe>
+            </div>
+
+        </main>
+
+
+        <footer class="footer flex">
+            <h3 class="next-compo"><a class="next-compo" href="../button/button.html"><i
+                        class="fas fa-chevron-circle-left"></i> Button</i></a>
+                <h3 class="next-compo"><a class="next-compo" href="../image/image.html">Image <i
+                            class="fas fa-chevron-circle-right"></i></a>
+                </h3>
+        </footer>
+    </section>
+</body>
+
+</html>
