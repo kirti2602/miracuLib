@@ -8,6 +8,7 @@
     --hover-shadow-grey: rgb(196, 192, 192);
     --secondary-white: white;
     --off-black-typography: rgb(37, 37, 37);
+    --gray: gray;
 
 
     --success-green: #11AF41;
@@ -165,18 +166,30 @@ body {
     padding: 0rem 1rem;
 }
 
+/*iframe styles for doc pages*/
+iframe{
+    width: 80%;
+    padding-top: 2rem;
+    margin: auto;
+}
+
 .footer{
     grid-area: footer;
     justify-content: space-between;
 }
-@media only screen and (max-width: 800px){
+
+
+/* ----------------------------------------------------------------------------------- */
+/* media querries */
+
+@media screen and (min-width: 700px) and (max-width: 850px) {
     html{
         font-size: 70%;
     }
 }
 
 
-@media only screen and (max-width: 700px){
+@media screen and (max-width: 850px){
     .homepage-container{
         grid-template-columns: 1fr;
         grid-template-areas: "navbar"
@@ -184,10 +197,15 @@ body {
         "footer"
         ;
         height: 100vh;
+        max-width: min-content;
     }
     .side-bar{
         display: none;
     }
+
+  html{
+      font-size: 120%;
+  }
 }
 
 

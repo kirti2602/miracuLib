@@ -65,7 +65,7 @@
 
 .previous-price {
     text-decoration: line-through;
-    color: gray;
+    color: var(--gray);
 }
 
 .discount {
@@ -82,8 +82,8 @@
 .fa-heart {
     border-radius: 50%;
     font-size: larger;
-    color: gray;
-    border: 2px solid gray;
+    color: var(--gray);
+    border: 2px solid var(--gray);
     padding: 0.5rem;
 }
 
@@ -173,9 +173,4 @@
     width: 50%;
 }
 
-/*iframe universal css- after merge transfer to homepage.css*/
-iframe{
-    width: 80%;
-    padding-top: 2rem;
-    margin: auto;
-}
+
