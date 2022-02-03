@@ -9,8 +9,8 @@
 }
 
 .card-outer-body:hover{
-    box-shadow: 10px 10px 20px var(--off-black-typography);
-
+    box-shadow: 2px 5px 20px var(--off-black-typography);
+    transition: 0.4s ease-out;
 }
 
 .card-inner-body {
@@ -112,7 +112,7 @@
 
 /*card with shadow*/
 .card-shadow{
-    box-shadow: 10px 10px 20px var(--off-black-typography);
+    box-shadow: 5px 5px 10px var(--off-black-typography);
 }
 
 /*card with text-overlay*/
