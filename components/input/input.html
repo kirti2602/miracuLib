@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input</title>
+    <link rel="stylesheet" href="input.css">
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/1465705b72.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="homepage-container">
+
+        <nav class="nav-bar padding2rem flex cursor-pointer">
+
+            <a href="../../index.html"><img class="logo" src="../../images/logo-sm.png" alt="logo"></a>
+
+            <a href="../../homepage/homepage.html">Home</a>
+
+            <!-- social media links -->
+            <div class="social-links flex cursor-pointer">
+                <a target="_blank" href="https://github.com/kirti2602"><i class="fab fa-github fa-2x"></i></a>
+                <a target="_blank" href="https://www.linkedin.com/in/kirti--sharma/"><i
+                        class="fab fa-linkedin fa-2x"></i></a>
+                <a target="_blank" href="https://twitter.com/_keeerti"><i class="fab fa-twitter fa-2x"></i></a>
+            </div>
+        </nav>
+
+        <aside class="side-bar">
+            <ul class="sidebar-list flex cursor-pointer">
+
+                <h1><i class="fas fa-rocket"></i> Get Started</h1>
+
+                <a href="../../homepage/homepage.html">
+                    <li>Installation</li>
+                </a>
+
+                <h1><i class="fas fa-puzzle-piece"></i> Components</h1>
+
+                <a href="../avatar/avatar.html">
+                    <li>Avatar</li>
+                </a>
+                <a href="../alert/alert.html">
+                    <li>Alert</li>
+                </a>
+                <a href="../badge/badge.html">
+                    <li>Badge</li>
+                </a>
+                <a href="../button/button.html">
+                    <li>Button</li>
+                </a>
+                <a href="../card/card.html">
+                    <li>Card</li>
+                </a>
+                <a href="../image/image.html">
+                    <li>Image</li>
+                </a>
+                <a href="input.html">
+                    <li class="selected">Input</li>
+                </a>
+                <a href="../text-utilities/text-utilities.html">
+                    <li>Text Utilities</li>
+                </a>
+                <a href="../lists/lists.html">
+                    <li>Lists</li>
+                </a>
+                <a href="../modal/modal.html">
+                    <li>Modal</li>
+                </a>
+                <a href="../rating/rating.html">
+                    <li>Rating </li>
+                </a>
+                <a href="../snackbar/snackbar.html">
+                    <li>Snackbar</li>
+                </a>
+                <a href="../grid/grid.html">
+                    <li>Grid</li>
+                </a>
+                <a href="../navigation/navigation.html">
+                    <li>Naviagtion</li>
+                </a>
+                <a href="../slider/slider.html">
+                    <li>Slider</li>
+                </a>
+            </ul>
+        </aside>
+
+        <main class="main-content padding2rem">
+
+            <h1 class="component-title">Inputs</h1>
+            <p class="component-description">Input fields are an essential user interface design element, providing
+                users with the means to enter non-standardized responses. They are used in many different situations,
+                but most people will have come across them when entering personal details and delivery addresses on
+                e-commerce web forms or sending online queries.
+            </p>
+
+            <h3 class="component-eg">Simple Text Input Field inside form</h3>
+
+            <!-- simple login form -->
+
+            <div class="comp-live flex column-flex">
+                <form action="" class="form flex">
+                    <h1>Login</h1>
+                    <input class="simple-input" type="email" name="" id="" placeholder="enter your email">
+                    <input class="simple-input" type="password" name="" id="" placeholder="enter your password">
+
+                    <a href="#"><small>Forgot password?</small></a>
+
+                    <button class="btn login" type="submit">Login</button>
+                </form>
+
+            </div>
+
+            <div class="demo-code flex">
+                <iframe src="https://www.thiscodeworks.com/embed/61fcfd61b57bf800152b7239" style="height: 203px;"
+                    frameborder="0"></iframe>
+
+            </div>
+
+            <hr class="horizontal-line-break">
+
+            <!-- ----------------------------------------------------------------------------------------------------------- -->
+
+            <h3 class="component-eg">Example of inputs with validation and error styles</h3>
+
+            <!-- validation and error styles -->
+
+            <div class="comp-live flex">
+
+                <form action="" class="form flex">
+
+                    <h1>Sign up</h1>
+                    <div class="full-name flex">
+                        <input class="first-name simple-input" type="text" placeholder="first name*">
+                        <input class="last-name simple-input" type="text" placeholder="last name*">
+                    </div>
+                    <input class="simple-input validated-input" type="email" name="" id=""
+                        placeholder="enter your email*" value="kirti.com">
+                    <small class="validated-msg">Email address is valid <i class="fas fa-check"></i></small>
+
+                    <input class="simple-input error-input" type="password" name="" id=""
+                        placeholder="enter your password*" value="1234">
+                    <small class="error-msg">Password must be at least 8 characters long <i
+                            class="fas fa-exclamation"></i></small>
+
+                    <small>Already having account? <a href="#">Login</a></small>
+
+                    <button class="btn login" type="submit">Login</button>
+                </form>
+
+            </div>
+
+            <div class="demo-code flex">
+                <iframe src="https://www.thiscodeworks.com/embed/61fd0ac0b57bf800152b7240" style="height: 307px;"
+                    frameborder="0"></iframe>
+
+            </div>
+
+        </main>
+
+
+        <footer class="footer flex">
+            <h3 class="next-compo"><a class="next-compo" href="../image/image.html"><i
+                        class="fas fa-chevron-circle-left"></i> Card</i></a>
+                <h3 class="next-compo"><a class="next-compo" href="../text-utilities/text-utilities.html">Input <i
+                            class="fas fa-chevron-circle-right"></i></a>
+                </h3>
+            </footer>
+    </section>
+</body>
+
+</html>

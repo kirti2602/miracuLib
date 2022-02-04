@@ -1,0 +1,80 @@
+@import '../../homepage/homepage.css';
+@import '../document.css';
+@import '../../components/button/button.css';
+
+.column-flex {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 2rem;
+    gap: 1rem;
+}
+
+.form {
+    background-color: var(--secondary-white);
+    flex-direction: column;
+    min-width: 50%;
+    margin: auto;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 4rem;
+    gap: 1rem;
+}
+
+.simple-input {
+    padding: 0.5rem;
+    width: 100%;
+    border: 1px solid var(--gray);
+    border-radius: 0.2rem;
+}
+
+.simple-input:focus {
+    outline: 1px solid var(--primary-violet);
+    box-shadow: 0 0 5px var(--primary-violet);
+}
+
+.btn.login {
+    background-color: var(--primary-violet);
+    width: 100%;
+    border-radius: 0.2rem;
+    opacity: 50%;
+}
+
+.btn.login:hover {
+    opacity: 100%;
+}
+
+/*valiadation / error style input fields*/
+
+.full-name {
+    justify-content: space-between;
+    width: 100%;
+}
+
+.first-name,
+.last-name {
+    width: 45%;
+}
+
+.error-input {
+    border-color: var(--error-red);
+}
+
+.error-input:focus {
+    outline: 1px solid var(--error-red);
+    box-shadow: 0 0px 10px var(--error-red);
+}
+.error-msg{
+    color: var(--error-red);
+}
+
+.validated-input {
+    border-color: var(--success-green);
+}
+
+.validated-input:focus {
+    outline: 1px solid var(--success-green);
+    box-shadow: 0 0px 10px var(--success-green);
+}
+.validated-msg{
+    color: var(--success-green);
+}
