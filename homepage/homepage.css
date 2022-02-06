@@ -189,7 +189,7 @@ iframe{
 } */
 
 
-@media screen and (max-width: 850px){
+/* @media screen and (max-width: 850px){
     .homepage-container{
         grid-template-columns: 1fr;
         grid-template-areas: "navbar"
@@ -221,7 +221,7 @@ iframe{
         max-width: 50%;
         margin: auto;
     }
-}
+} */
 
 
 
