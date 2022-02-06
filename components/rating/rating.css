@@ -1,0 +1,13 @@
+@import '../../components/document.css';
+@import '../../homepage/homepage.css';
+
+.rating-container{
+    width: 30%;
+    justify-content: space-evenly;
+    font-size: 2rem;
+    color: var(--gray);
+}
+
+.active-rating{
+color: var(--warning-yellow);
+}
