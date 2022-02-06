@@ -1,9 +1,9 @@
 @import '../../homepage/homepage.css';
 @import '../document.css';
 
-.column-flex{
+/* .column-flex{
     flex-direction: column;
-}
+} */
 
 .biggest-heading{
     font-size: 2rem;

@@ -23,6 +23,12 @@
     --info-blue: #0D5BBC;
     --info-blue-light: #71affa;
 
+    /*badges*/
+    --active-state: rgb(5, 177, 5);
+    --offline-state: grey;
+    --dnd-state: rgb(255, 22, 22);
+    --busy-state: rgb(37, 37, 248);
+
 
     /* font-family */
     --body-font-family: 'Raleway', sans-serif; 
@@ -30,6 +36,7 @@
 
 * {
     font-family: var(--body-font-family);
+    /* box-sizing: border-box; */
 }
 
 html{
@@ -47,6 +54,14 @@ html{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    justify-content: center;
+}
+
+.column-flex {
+    flex-direction: column;
+    /* align-items: flex-start; */
+    padding-left: 2rem;
+    gap: 1rem;
 }
 
 a{
@@ -59,7 +74,7 @@ a{
 
 .selected{
     background-color: var(--primary-violet);
-    border-radius: 2rem;
+    /* border-radius: 2rem; */
     border: 2px solid var(--secondary-white);
     color: var(--secondary-white);
 }
@@ -89,8 +104,8 @@ body {
     background-color: var(--primary-violet);
     color: white;
     gap: 5rem;
-    /* position: fixed; */
-    /* width: 100%;
+    /* position: fixed;
+    width: 100%;
     z-index: 1000; */
 }
 .nav-bar a{
@@ -117,12 +132,12 @@ body {
 
 .side-bar{
     grid-area: sidebar;
-    overflow-y: auto;
+    overflow-y: scroll;
     font-weight: 600;
     padding: 1rem;
-
-    /* position: fixed; */
-    /* z-index: 4; */
+    /* position: fixed;
+    z-index: 4;
+    height: 100vh; */
 }
 
 .sidebar-list{
@@ -136,11 +151,12 @@ body {
 
 .side-bar li{
     padding: 0.8rem 2.5rem;
-    min-width: 5rem;
-    cursor: pointer;
 }
+
 .side-bar a{
     color: var(--primary-violet);
+    width: 100%;
+    cursor: pointer;
 }
 
 .side-bar h1{
@@ -152,7 +168,7 @@ body {
 
 .sidebar-list > a:hover{
     background-color: var(--hover-state-light-violet);
-    border-radius: 2rem;
+    /* border-radius: 2rem; */
     color: var(--hover-state-dark-violet);
 }
 

@@ -2,11 +2,8 @@
 @import '../avatar/avatar.css';
 @import '../../homepage/homepage.css';
 
-:root{
-    --active-state: rgb(5, 177, 5);
-    --offline-state: grey;
-    --dnd-state: rgb(255, 22, 22);
-    --busy-state: rgb(37, 37, 248);
+.comp-live{
+    justify-content: space-evenly;
 }
 
 .badge-container{

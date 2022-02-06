@@ -1,6 +1,10 @@
 @import '../document.css';
 @import '../../homepage/homepage.css';
 
+.comp-live{
+    justify-content: space-evenly;
+}
+
 .avatar{
     border-radius: 50%;
     border: 3px solid var(--secondary-white);
