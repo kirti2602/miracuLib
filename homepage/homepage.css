@@ -182,11 +182,11 @@ iframe{
 /* ----------------------------------------------------------------------------------- */
 /* media querries */
 
-@media screen and (min-width: 700px) and (max-width: 850px) {
+/* @media screen and (min-width: 700px) and (max-width: 850px) {
     html{
         font-size: 70%;
     }
-}
+} */
 
 
 @media screen and (max-width: 850px){
@@ -197,15 +197,30 @@ iframe{
         "footer"
         ;
         height: 100vh;
-        max-width: min-content;
     }
     .side-bar{
         display: none;
     }
 
-  html{
-      font-size: 120%;
-  }
+    .main-content{
+        max-width: min-content;
+        margin: 2rem;
+        text-align: center;
+    }
+    p{
+        font-size: 2rem;
+    }
+
+    h3{
+        font-size: 3rem;
+    }
+
+    .comp-live{
+        flex-direction: column;
+        gap: 1rem;
+        max-width: 50%;
+        margin: auto;
+    }
 }
 
 
