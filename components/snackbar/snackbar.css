@@ -28,10 +28,9 @@
     box-shadow: 1px 4px 10px var(--off-black-typography);
     position: absolute;
     display: none;
-    top: 3rem;
+    bottom: 0;
+    right: 0;
     animation: transitionOnShow 1s;
-    left: 50%;
-    margin-left: -196.12px;
     align-items: center;
 }
 
