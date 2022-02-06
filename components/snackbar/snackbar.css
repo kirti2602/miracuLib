@@ -1,0 +1,65 @@
+@import '../../homepage/homepage.css';
+@import '../document.css';
+@import '../button/button.css';
+
+
+:root {
+    --snackbar-bg: #333333;
+}
+
+@keyframes transitionOnShow {
+    from {
+        opacity: 0;
+        transform: rotateX(60deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: rotateX(-20deg);
+    }
+}
+
+.snackbar-container {
+    background-color: var(--snackbar-bg);
+    color: var(--secondary-white);
+    padding: 0.4rem 1rem;
+    border-radius: 0.3rem;
+    font-size: 0.5rem;
+    box-shadow: 1px 4px 10px var(--off-black-typography);
+    position: absolute;
+    display: none;
+    top: 3rem;
+    animation: transitionOnShow 1s;
+    left: 50%;
+    margin-left: -196.12px;
+    align-items: center;
+}
+
+
+
+.snackbar-container p {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+
+.retry {
+    color: var(--hover-state-light-violet);
+    font-weight: bold;
+}
+
+
+.cross {
+    margin-left: 1rem;
+    padding: 0.2rem;
+    border: 1px solid var(--snackbar-bg);
+}
+
+.cross:hover {
+    filter: brightness(90%);
+    background-color: var(--gray);
+    border-color: var(--off-black-typography);
+}
+
+
+
