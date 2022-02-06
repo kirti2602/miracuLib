@@ -8,7 +8,10 @@ const hideSnackbar = ()=>{
 }
 
 const showSnackbar = ()=>{
-    snackbar.style.display = "block"
+    snackbar.style.display = "block";
+    setTimeout( () => {
+        snackbar.style.display = "none"
+    }, 4000)
 }
 
 
