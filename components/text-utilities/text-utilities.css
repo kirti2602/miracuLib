@@ -1,0 +1,19 @@
+@import '../../homepage/homepage.css';
+@import '../document.css';
+
+.column-flex{
+    flex-direction: column;
+}
+
+.biggest-heading{
+    font-size: 2rem;
+}
+
+.gray-text{
+    color: var(--gray);
+    font-size: larger;
+}
+
+.center-text{
+    text-align: center;
+}

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lists</title>
+    <link rel="stylesheet" href="lists.css">
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/1465705b72.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="homepage-container">
+
+        <nav class="nav-bar padding2rem flex cursor-pointer">
+
+            <a href="../../index.html"><img class="logo" src="../../images/logo-sm.png" alt="logo"></a>
+
+            <a href="../../homepage/homepage.html">Home</a>
+
+            <!-- social media links -->
+            <div class="social-links flex cursor-pointer">
+                <a target="_blank" href="https://github.com/kirti2602"><i class="fab fa-github fa-2x"></i></a>
+                <a target="_blank" href="https://www.linkedin.com/in/kirti--sharma/"><i
+                        class="fab fa-linkedin fa-2x"></i></a>
+                <a target="_blank" href="https://twitter.com/_keeerti"><i class="fab fa-twitter fa-2x"></i></a>
+            </div>
+        </nav>
+
+        <aside class="side-bar">
+            <ul class="sidebar-list flex cursor-pointer">
+
+                <h1><i class="fas fa-rocket"></i> Get Started</h1>
+
+                <a href="../../homepage/homepage.html">
+                    <li>Installation</li>
+                </a>
+
+                <h1><i class="fas fa-puzzle-piece"></i> Components</h1>
+
+                <a href="../avatar/avatar.html">
+                    <li>Avatar</li>
+                </a>
+                <a href="../alert/alert.html">
+                    <li>Alert</li>
+                </a>
+                <a href="../badge/badge.html">
+                    <li>Badge</li>
+                </a>
+                <a href="../button/button.html">
+                    <li>Button</li>
+                </a>
+                <a href="../card/card.html">
+                    <li>Card</li>
+                </a>
+                <a href="../image/image.html">
+                    <li>Image</li>
+                </a>
+                <a href="../input/input.html">
+                    <li>Input</li>
+                </a>
+                <a href="../text-utilities/text-utilities.html">
+                    <li>Text Utilities</li>
+                </a>
+                <a href="lists.html">
+                    <li class="selected">Lists</li>
+                </a>
+                <a href="../modal/modal.html">
+                    <li>Modal</li>
+                </a>
+                <a href="../rating/rating.html">
+                    <li>Rating </li>
+                </a>
+                <a href="../snackbar/snackbar.html">
+                    <li>Snackbar</li>
+                </a>
+                <a href="../grid/grid.html">
+                    <li>Grid</li>
+                </a>
+                <a href="../navigation/navigation.html">
+                    <li>Naviagtion</li>
+                </a>
+                <a href="../slider/slider.html">
+                    <li>Slider</li>
+                </a>
+            </ul>
+        </aside>
+
+        <main class="main-content padding2rem">
+
+            <h1 class="component-title">Lists</h1>
+            <p class="component-description">Lists can be used to display some quick informations like notifications,
+                menu,tasks etc
+            </p>
+
+            <h3 class="component-eg">Spaced list</h3>
+
+            <!-- Spaced list items-->
+
+            <div class="comp-live flex">
+
+                <ul class="list spaced-list flex cursor-pointer">
+                    <li><input type="checkbox" name="" id=""> Finish the designs</li>
+                    <li><input type="checkbox" name="" id=""> Ask for feedback</li>
+                    <li><input type="checkbox" name="" id=""> Post on twitter</li>
+                    <li class="end-list"> <i class="fas fa-plus"></i> Add a subtask</li>
+                </ul>
+
+            </div>
+
+            <div class="demo-code flex">
+                <iframe src="https://www.thiscodeworks.com/embed/61fd834a33c09d0015b44df2" style="height: 164px;"
+                    frameborder="0"></iframe>
+
+            </div>
+
+            <hr class="horizontal-line-break">
+
+            <!-- ----------------------------------------------------------------------------------------------------------- -->
+            <!-- Notification style lists -->
+
+            <h3 class="component-eg">Notification style list</h3>
+
+            <div class="comp-live flex">
+                <ul class="list stacked-list flex cursor-pointer">
+                    <li class="notification-item flex">
+                        <img class="avatar avatar-sm-size" src="../../images/kakashi.svg" alt="">
+                        <small><strong> Hatake Kakashi </strong> followed you!</small>
+                        <i class="fas fa-reply fa-xs"></i>
+                        <i class="fas fa-trash-alt fa-xs"></i>
+                    </li>
+
+                    <li class="notification-item flex">
+                        <img class="avatar avatar-sm-size" src="../../images/hinata.svg" alt="">
+                        <small><strong> Yuga Hinata </strong> liked your post!</small>
+                        <i class="fas fa-reply fa-xs"></i>
+                        <i class="fas fa-trash-alt fa-xs"></i>
+                    </li>
+
+                    <li class="notification-item flex">
+                        <img class="avatar avatar-sm-size" src="../../images/sasuke.svg" alt="">
+                        <small><strong> Uchiha Sasuke </strong> unfollowed you!</small>
+                        <i class="fas fa-reply fa-xs"></i>
+                        <i class="fas fa-trash-alt fa-xs"></i>
+                    </li>
+
+                </ul>
+
+            </div>
+
+            <div class="demo-code flex">
+                <iframe src="https://www.thiscodeworks.com/embed/61fe77e1bcdcda0015005930" style="height: 385px;"
+                    frameborder="0"></iframe>
+
+            </div>
+
+        </main>
+
+
+        <footer class="footer flex">
+            <h3 class="next-compo"><a class="next-compo" href="../text-utilities/text-utilities.html"><i
+                        class="fas fa-chevron-circle-left"></i> Text Utilities</i></a>
+                <h3 class="next-compo"><a class="next-compo" href="../modal/modal.html">Modal <i
+                            class="fas fa-chevron-circle-right"></i></a>
+                </h3>
+        </footer>
+    </section>
+</body>
+
+</html>
