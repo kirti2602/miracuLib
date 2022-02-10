@@ -12,6 +12,11 @@
     color: var(--secondary-white);
 }
 
+.nav-body a:hover{
+    filter: brightness(80%);
+}
+
 .nav-links{
     gap: 1.5rem;
 }
+
