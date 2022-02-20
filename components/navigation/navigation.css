@@ -1,0 +1,22 @@
+@import '../../homepage/homepage.css';
+@import '../document.css';
+
+.nav-body{
+    background-color: var(--primary-violet);
+    width: 100%;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+.nav-body a{
+    color: var(--secondary-white);
+}
+
+.nav-body a:hover{
+    filter: brightness(80%);
+}
+
+.nav-links{
+    gap: 1.5rem;
+}
+
